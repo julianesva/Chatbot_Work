@@ -111,37 +111,5 @@ npm start
 3. Press Enter or click "Send"
 4. Chat with your AI assistant!
 
----
+:)
 
-## 📁 Project Structure
-
-```
-chatbot-project/
-├── backend/
-│   ├── index.js          # Express server & OpenAI integration
-│   ├── .env              # Your API key (not committed)
-│   ├── .env.example      # Template for environment variables
-│   └── package.json      # Backend dependencies
-├── frontend/
-│   ├── src/
-│   │   ├── App.js        # Main React component
-│   │   ├── App.css       # Styling
-│   │   └── index.js      # React entry point
-│   ├── public/
-│   └── package.json      # Frontend dependencies
-├── README.md             # Project documentation
-└── .gitignore            # Files to be ignored by Git
-```
-
----
-
-## ✅ Final Notes
-
-- Ensure `.env` is correctly set up with your OpenAI API key before running.
-- If you encounter Git issues like nested repos, make sure to delete any inner `.git/` directories created by tools like Create React App:
-
-  ```bash
-  rm -rf frontend/.git
-  ```
-
-Happy building! 🚀
